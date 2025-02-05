@@ -1,20 +1,21 @@
-#Animal Flashcard Game:
+##Animal Flashcard Game:
 is an engaging, interactive flashcard app designed to help users learn about various animals while having fun! With a gamified experience, colorful visuals, and sound effects, this app challenges you to identify animals and earn points as you progress through different levels and tiers.
 
 ![front](https://github.com/user-attachments/assets/d1a61d83-9f5e-47e0-b76e-907c274c6af8)
 
 ![gamee](https://github.com/user-attachments/assets/092f350d-d128-4984-bc29-94fcde78aa67)
 
-#Key Features
+##Key Features
 Interactive Flashcards:
 
-#![funf](https://github.com/user-attachments/assets/11b62e10-49ba-4417-9330-d9add6010b4c)
 
-![tierss](https://github.com/user-attachments/assets/82f57513-d2be-442c-ab96-676e1e29312a)
 
 View detailed flashcards showcasing animal images, fun facts, and difficulty levels.
 Swipe through cards and test your knowledge by selecting the correct animal name from multiple choices.
-Gamification & Tier System:
+
+##Gamification & Tier System:
+
+![tierss](https://github.com/user-attachments/assets/82f57513-d2be-442c-ab96-676e1e29312a)
 
 Earn points for every correct answer and lose points for incorrect ones.
 Advance through levels based on your score—from Beginner Explorer to Nature Legend—each tier offering its own unique title and emoji.
@@ -25,9 +26,15 @@ Choose from different continents (or a global category) to focus on specific ani
 Each continent has its own icon and themed flashcards.
 Fun Facts & Sound Effects:
 
-Reveal fun facts about each animal to learn interesting tidbits and trivia.
+##Reveal fun facts:
+
+about each animal to learn interesting tidbits and trivia.
 Enjoy audio feedback with sounds for correct and incorrect answers to enhance the learning experience.
-Dynamic Animations & Backgrounds:
+
+![funf](https://github.com/user-attachments/assets/11b62e10-49ba-4417-9330-d9add6010b4c)
+
+
+##Dynamic Animations & Backgrounds:
 
 Smooth background animations create an immersive environment.
 Animated transitions and card shakes add a dynamic, playful feel to the gameplay.
