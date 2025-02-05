@@ -1,7 +1,16 @@
-Animal Flashcard Game is an engaging, interactive flashcard app designed to help users learn about various animals while having fun! With a gamified experience, colorful visuals, and sound effects, this app challenges you to identify animals and earn points as you progress through different levels and tiers.
+#Animal Flashcard Game:
+is an engaging, interactive flashcard app designed to help users learn about various animals while having fun! With a gamified experience, colorful visuals, and sound effects, this app challenges you to identify animals and earn points as you progress through different levels and tiers.
 
-Key Features
+![front](https://github.com/user-attachments/assets/d1a61d83-9f5e-47e0-b76e-907c274c6af8)
+
+![gamee](https://github.com/user-attachments/assets/092f350d-d128-4984-bc29-94fcde78aa67)
+
+#Key Features
 Interactive Flashcards:
+
+#![funf](https://github.com/user-attachments/assets/11b62e10-49ba-4417-9330-d9add6010b4c)
+
+![tierss](https://github.com/user-attachments/assets/82f57513-d2be-442c-ab96-676e1e29312a)
 
 View detailed flashcards showcasing animal images, fun facts, and difficulty levels.
 Swipe through cards and test your knowledge by selecting the correct animal name from multiple choices.
