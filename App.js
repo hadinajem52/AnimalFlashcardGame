@@ -467,14 +467,13 @@ export default function App() {
   const [showFunFact, setShowFunFact] = useState(false);
   const [fadeAnim] = useState(new Animated.Value(0));
   const [backgroundAnim] = useState(new Animated.Value(0));
-  const [currentTier, setCurrentTier] = useState(tiers[0]); // Default to Tier 1
+  const [currentTier, setCurrentTier] = useState(tiers[0]); 
   const [imageKey, setImageKey] = useState(0);
 
   const refreshImage = () => {
-    setImageKey((prevKey) => prevKey + 1); // Update key to force re-render
+    setImageKey((prevKey) => prevKey + 1); 
   };
 
-  // Load score and determine the tier on startup
   useEffect(() => {
     const loadScore = async () => {
       try {
@@ -489,7 +488,6 @@ export default function App() {
     loadScore();
   }, []);
 
-  // Update the current tier when the score changes
   useEffect(() => {
     updateCurrentTier(score);
   }, [score]);
@@ -500,12 +498,11 @@ export default function App() {
   };
 
   const handleTieringPage = () => {
-    // Navigate to the Tiering Page
     setIsGameStarted('TieringPage');
   };
 
   useEffect(() => {
-    let animationDirection = 1; // 1 for right-to-left, -1 for left-to-right
+    let animationDirection = 1; 
   
     const animateBackground = () => {
       Animated.timing(backgroundAnim, {
@@ -555,7 +552,6 @@ export default function App() {
     }).start();
   }, [showFunFact, fadeAnim]);
 
-  // Save score to AsyncStorage whenever it changes
   useEffect(() => {
     const saveScore = async () => {
       try {
@@ -612,7 +608,7 @@ export default function App() {
     setSelectedAnswer(null);
     setConfirmedAnswer(false);
     setCurrentCard((prev) => (prev + 1) % shuffledFlashcards.length);
-    refreshImage(); // Force re-render of the image
+    refreshImage(); 
   };
   
   const shakeStyle = {
@@ -635,9 +631,8 @@ export default function App() {
   // ---------------------------
   
   if (isGameStarted === 'TieringPage') {
-    // Tiering Page
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: '#000' }}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: '#2c8fff' }}>
         <ScrollView contentContainerStyle={styles.container}>
           <Animated.View style={[styles.backgroundContainer, { transform: [{ translateX }] }]}>
             <Image source={require('./assets/wallpapers/background.png')} style={styles.backgroundImage} />
@@ -665,7 +660,7 @@ export default function App() {
 
   if (!isGameStarted) {
     return (
-      <SafeAreaView style={{ flex: 1, backgroundColor: '#000' }}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: '#2c8fff' }}>
         <View style={styles.container}>
           <Animated.View style={[styles.backgroundContainer, { transform: [{ translateX }] }]}>
             <Image source={require('./assets/wallpapers/background.png')} style={styles.backgroundImage} />
@@ -708,7 +703,7 @@ export default function App() {
   const currentFlashcard = shuffledFlashcards[currentCard];
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#000' }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#2c8fff' }}>
       <View style={styles.container}>
         <Animated.View style={[styles.backgroundContainer, { transform: [{ translateX }] }]}>
           <Image source={require('./assets/wallpapers/background.png')} style={styles.backgroundImage} />
